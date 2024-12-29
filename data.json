@@ -1,0 +1,39 @@
+{
+    "aws": {
+      "compute": {
+        "small": 0.048,
+        "medium": 0.098,
+        "large": 0.190
+      },
+      "storage": {
+        "small": 0.022,
+        "medium": 0.050,
+        "large": 0.105
+      }
+    },
+    "gcp": {
+      "compute": {
+        "small": 0.056,
+        "medium": 0.120,
+        "large": 0.205
+      },
+      "storage": {
+        "small": 0.028,
+        "medium": 0.053,
+        "large": 0.110
+      }
+    },
+    "azure": {
+      "compute": {
+        "small": 0.051,
+        "medium": 0.110,
+        "large": 0.215
+      },
+      "storage": {
+        "small": 0.025,
+        "medium": 0.057,
+        "large": 0.095
+      }
+    }
+  }
+  
