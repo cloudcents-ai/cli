@@ -3,7 +3,7 @@
 ## 🚀 Installing
 
 ```sh
-wget | curl https://github.com/cloudcents-ai/cli/cloudcents
+curl -L -o cloudcents https://github.com/cloudcents-ai/cli/raw/main/cloudcents
 chmod +x cloudcents
 echo 'export PATH=$PATH:'$(pwd) >> ~/.bash_profile
 source ~/.bash_profile
@@ -13,9 +13,22 @@ source ~/.bash_profile
 
 ![CLI Demo](img/cli.gif)
 
+### 🔑 Authenticate with your API key
 ```sh
-cloudcents auth <your-api-key>    # 🔑 Authenticate with your API key
-cloudcents checklist              # ✅ View and complete your task checklist
-cloudcents prices                 # 💲 Get pricing for AWS, GCP, and Azure
-cloudcents chat                   # 💬 Chat with the Cloud Cents API
+cloudcents auth <your-api-key>
+```
+
+### ✅ View and complete your task checklist
+```
+cloudcents checklist
+```
+
+### 💲 Get pricing for AWS, GCP, and Azure
+```
+cloudcents prices
+```
+
+### 💬 Chat with the Cloud Cents API
+```
+cloudcents chat "What is the advantage of AWS over GCP?"                  
 ```
